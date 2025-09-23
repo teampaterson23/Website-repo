@@ -1,0 +1,23 @@
+h1 {
+    color:#ffffff;
+    line-height: 1.1;
+    letter-spacing: normal;
+    word-spacing: normal
+}
+p {
+    color:#ffffff
+}
+h1 {
+    color: #ffffff;
+    text-align:center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic
+}
+body {
+    background-color: black
+}
+img {
+    text-align: center
+}
