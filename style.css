@@ -41,3 +41,7 @@ tr {
 label {
     color:white
 }
+iframe {
+    display: block;
+    margin: auto
+}
