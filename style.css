@@ -1,5 +1,12 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 body {
-    font-family:"Bitcount Prop Double Ink",Arial, Helvetica, sans-serif
+    font-family:"Bitcount Prop Double Ink",Arial, Helvetica, sans-serif;
+    background-color: black
 }
 
 h1 {
@@ -9,7 +16,7 @@ h1 {
     word-spacing: normal
 }
 p {
-    color:#ffffff
+    color:#ffffff;
 }
 
 h1 {
@@ -21,27 +28,79 @@ h1 {
     font-style: italic
 }
 
-body {
-    background-color: black
-}
-img {
-    display: block;
-    margin: auto
-}
 td {
     color:white
 }
+
 tr {
     color:white
 }
+
 .center {
     margin-left: auto;
     margin-right: auto
 }
+
 label {
     color:white
 }
+
 iframe {
     display: block;
     margin: auto
+}
+
+.banner {
+    background-color: crimson;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    
+    width: 80%;
+    padding: 16px;
+    margin: 12px
+}
+
+.img-right {
+    float: right;
+    margin-left:20px
+}
+
+.img-left {
+    float: left;
+    margin-right: 20px
+}
+
+.section-left {
+    align-content: left;
+    max-width:1000px;
+}
+
+.section-right {
+    align-content: right;
+    max-width: 1000px;
+    margin-left:auto;
+}
+
+.text-left {
+    display:table;
+    height:266px
+}
+
+.text-left p {
+    vertical-align: middle;
+    display:table-cell;
+}
+
+.text-right {
+    display: table;
+    height:266px
+}
+
+.text-right p {
+    vertical-align: middle;
+    display:table-cell;
 }
