@@ -29,7 +29,8 @@ h1 {
 }
 
 td {
-    color:white
+    color:white;
+    max-width: 750px
 }
 
 tr {
@@ -103,4 +104,40 @@ iframe {
 .text-right p {
     vertical-align: middle;
     display:table-cell;
+}
+
+.links {
+    text-align: center
+}
+
+.img-table {
+    float: right;
+    margin: auto;
+    padding: 20px
+}
+
+.table-data {
+    float:left
+}
+
+.table {
+    display: inline-block;
+    margin: auto;
+    padding: 20px
+}
+
+.form {
+    text-align: center
+}
+
+.paragraph1 {
+    display: table;
+    max-width: 750px;
+    float: left;
+}
+
+.paragraph2 {
+    display: table;
+    max-width: 750px;
+    float: right;
 }
