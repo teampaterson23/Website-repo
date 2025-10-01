@@ -9,6 +9,30 @@ body {
     background-color: black
 }
 
+a:link {
+    color:#00ff32;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1500ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 h1 {
     color:#ffffff;
     line-height: 1.1;
@@ -62,12 +86,14 @@ iframe {
     
     width: 80%;
     padding: 16px;
-    margin: 12px
+    margin: auto;
+    text-align: center;
+    line-height: 300px
 }
 
 .img-right {
     float: right;
-    margin-left:20px
+    margin-left:20px;
 }
 
 .img-left {
@@ -140,4 +166,20 @@ iframe {
     display: table;
     max-width: 750px;
     float: right;
+}
+
+.vid-left {
+    float:left;
+    margin: auto;
+    padding: 12px
+}
+
+.vid-right {
+    float: right;
+}
+
+.text {
+    margin: auto;
+    text-align: center;
+    max-width: 750px
 }
