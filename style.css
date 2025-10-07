@@ -1,16 +1,16 @@
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
 
 body {
-    font-family:"Bitcount Prop Double Ink",Arial, Helvetica, sans-serif;
-    background-color: black
+    font-family: "Bitcount Prop Double Ink", Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 a:link {
-    color:#00ff32;
+    color: #00ff32;
     background-color: transparent;
     text-decoration: none;
 }
@@ -22,57 +22,57 @@ a:visited {
 }
 
 a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-h1 {
-    color:#ffffff;
-    line-height: 1.1;
-    letter-spacing: normal;
-    word-spacing: normal
-}
-p {
-    color:#ffffff;
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 h1 {
     color: #ffffff;
-    text-align:center;
+    line-height: 1.1;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+p {
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
     text-decoration: underline;
     text-transform: capitalize;
     font-weight: bold;
-    font-style: italic
+    font-style: italic;
 }
 
 td {
-    color:white;
-    max-width: 750px
+    color: white;
+    max-width: 750px;
 }
 
 tr {
-    color:white
+    color: white;
 }
 
 .center {
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 label {
-    color:white
+    color: white;
 }
 
 iframe {
     display: block;
-    margin: auto
+    margin: auto;
 }
 
 .banner {
@@ -83,77 +83,77 @@ iframe {
     border-style: solid;
     border-color: white;
     border-radius: 8px;
-    
+
     width: 80%;
     padding: 16px;
     margin: auto;
     text-align: center;
-    line-height: 300px
+    line-height: 300px;
 }
 
 .img-right {
     float: right;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 .img-left {
     float: left;
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .section-left {
     align-content: left;
-    max-width:1000px;
+    max-width: 1000px;
 }
 
 .section-right {
     align-content: right;
     max-width: 1000px;
-    margin-left:auto;
+    margin-left: auto;
 }
 
 .text-left {
-    display:table;
-    height:266px
+    display: table;
+    height: 266px;
 }
 
 .text-left p {
     vertical-align: middle;
-    display:table-cell;
+    display: table-cell;
 }
 
 .text-right {
     display: table;
-    height:266px
+    height: 266px;
 }
 
 .text-right p {
     vertical-align: middle;
-    display:table-cell;
+    display: table-cell;
 }
 
 .links {
-    text-align: center
+    text-align: center;
 }
 
 .img-table {
     float: right;
     margin: auto;
-    padding: 20px
+    padding: 20px;
 }
 
 .table-data {
-    float:left
+    float: left;
 }
 
 .table {
     display: inline-block;
     margin: auto;
-    padding: 20px
+    padding: 20px;
 }
 
 .form {
-    text-align: center
+    text-align: center;
 }
 
 .paragraph1 {
@@ -169,9 +169,9 @@ iframe {
 }
 
 .vid-left {
-    float:left;
+    float: left;
     margin: auto;
-    padding: 12px
+    padding: 12px;
 }
 
 .vid-right {
@@ -181,5 +181,43 @@ iframe {
 .text {
     margin: auto;
     text-align: center;
-    max-width: 750px
+    max-width: 750px;
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+}
+
+/*stuff that doesn't change */
+.navbutton {
+    background-color: crimson;
+    border: 2px dashed #444;
+    vertical-align: middle;
+
+    padding: 10px;
+}
+
+/*default - mobile/phone */
+.navbutton {
+    width: 100%;
+    margin: -2px;
+}
+
+/* tablet and up */
+@media (min-width: 830px) {
+    .navbutton {
+        display: inline-block;
+        width: 25%;
+        margin: -4px;
+    }
+}
+
+/* large desktop */
+@media (min-width: 1200px) {
+    .navbutton {
+        display: inline-block;
+        width: 150px;
+        margin: 10px;
+    }
 }
