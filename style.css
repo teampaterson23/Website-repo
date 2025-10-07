@@ -93,7 +93,7 @@ iframe {
 
 .img-right {
     margin: auto;
-    display: block;
+    display: block
 }
 
 .img-left {
@@ -213,12 +213,15 @@ iframe {
     }
 
     .img-left {
+        vertical-align: middle;
         float: left;
-        margin-right: 20px;
+        margin: 10px;
+        
     }
     .img-right {
+        vertical-align: middle;
         float: right;
-        margin-left: 20px;
+        margin: 10px;
     }
 }
 
