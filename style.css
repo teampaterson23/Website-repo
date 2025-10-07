@@ -92,13 +92,13 @@ iframe {
 }
 
 .img-right {
-    float: right;
-    margin-left: 20px;
+    margin: auto;
+    display: block;
 }
 
 .img-left {
-    float: left;
-    margin-right: 20px;
+    margin: auto;
+    display: block;
 }
 
 .section-left {
@@ -210,6 +210,15 @@ iframe {
         display: inline-block;
         width: 25%;
         margin: -4px;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 20px;
+    }
+    .img-right {
+        float: right;
+        margin-left: 20px;
     }
 }
 
