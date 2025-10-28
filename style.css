@@ -10,13 +10,13 @@ body {
 }
 
 a:link {
-    color: #00ff32;
+    color: #ffffff;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(133, 123, 252);
+    color: rgb(2, 6, 131);
     background-color: transparent;
     text-decoration: none;
 }
@@ -102,12 +102,10 @@ iframe {
 }
 
 .section-left {
-    align-content: left;
     max-width: 1000px;
 }
 
 .section-right {
-    align-content: right;
     max-width: 1000px;
     margin-left: auto;
 }
@@ -191,7 +189,7 @@ iframe {
 
 /*stuff that doesn't change */
 .navbutton {
-    background-color: crimson;
+    background-color: #fd5f7f;
     border: 2px dashed #444;
     vertical-align: middle;
 
